@@ -15,5 +15,8 @@
   // Site name
   define('SITENAME', 'SharePosts');
 
+  // App version
+  define('APPVERSION', '1.0.0');
+
   // Remember to change the .htaccess file under /public
   // Rewrite Base __YOUR_ROOT_URL__
