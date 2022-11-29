@@ -6,7 +6,7 @@ class Pages extends Controller {
   public function index(){
 
     $data = [
-      'title' => 'Traversy MCV framework',
+      'title' => 'SharePosts',
     ];
 
     $this->view('pages/index', $data);
