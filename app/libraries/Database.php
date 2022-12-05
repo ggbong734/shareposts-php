@@ -17,7 +17,7 @@
     private $stmt;
     private $error;
     public function __construct(){
-      // Set DSN
+      // Set DSN - data source name
       $dsn = 'mysql:host=' . $this->host . ';dbname=' . $this->dbname;
       $options = array(
         PDO::ATTR_PERSISTENT => true,
