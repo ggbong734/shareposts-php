@@ -7,6 +7,7 @@ class Posts extends Controller {
       redirect('users/login');
     }
 
+    // loads post and user models
     $this->postModel = $this->model('Post');
     $this->userModel = $this->model('User');
   }
